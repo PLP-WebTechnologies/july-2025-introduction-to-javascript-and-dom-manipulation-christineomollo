@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background-color: #c1d6b6;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-theme {
+  background-color: #222;
+  color: #b9e4a5;
+}
+
+h1, h2 {
+  color: #938a0d;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0.25rem 1rem 0;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 0.4rem;
+  margin-right: 0.5rem;
+}
+
+#dynamic-content {
+  margin-top: 1rem;
+  border: 1px solid #c0d552;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #95de73;
+}
